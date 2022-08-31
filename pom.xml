@@ -5,16 +5,16 @@
   <parent>
     <groupId>io.vertx</groupId>
     <artifactId>vertx-ext-parent</artifactId>
-    <version>35</version>
+    <version>38</version>
   </parent>
 
-  <artifactId>vertx-hazelcast</artifactId>
-  <version>4.0.0-milestone5</version>
+  <artifactId>vertx-hazelcast3</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
 
   <name>Vert.x Hazelcast Cluster Manager</name>
 
   <properties>
-    <stack.version>4.0.0-milestone5</stack.version>
+    <stack.version>4.3.3</stack.version>
     <asciidoc.dir>${project.basedir}/src/main/asciidoc</asciidoc.dir>
     <hazelcast.version>3.12.2</hazelcast.version>
     <hazelcast-kubernetes.version>1.5.1</hazelcast-kubernetes.version>
@@ -63,7 +63,7 @@
     </dependency>
     <dependency>
       <groupId>io.vertx</groupId>
-      <artifactId>vertx-codetrans</artifactId>
+      <artifactId>vertx-codegen</artifactId>
       <scope>provided</scope>
     </dependency>
 
