@@ -27,4 +27,4 @@ jobs:
           java-version: ${{ matrix.jdk }}
           distribution: temurin
       - name: Run tests
-        run: mvn -s -B -DtestLogLevel=OFF test
+        run: mvn -B -DtestLogLevel=OFF test
