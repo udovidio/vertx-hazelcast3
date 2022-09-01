@@ -1,4 +1,5 @@
 = Hazelcast 3 Cluster Manager
+
 image:https://github.com/udovidio/vertx-hazelcast3/workflows/CI/badge.svg?branch=master["Build Status", link="https://github.com/udovidio/vertx-hazelcast3/actions?query=workflow%3ACI"]
 
 Fork of https://github.com/vert-x3/vertx-hazelcast[Vert.x hazelcast]
